@@ -11,9 +11,15 @@ MySQL - 3306
 ## Networking 
 
 a) tmui OR
+
 Ip a to find interface
+
 i) nmcli con mod enp0s3 ipv4.addresses 192.168.9.7/24
+
 ii) nmcli con mod enp0s3 ipv4.gateway 192.168.9.1
+
 iii) nmcli con mod enp0s3 ipv4.method manual
+
 iv) nmcli con mod enp0s3 ipv4.dns “192.168.9.12”
+
 v) nmcli con up enp0s3
