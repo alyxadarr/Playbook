@@ -8,6 +8,9 @@ PostgreSQL - 5432
 
 MySQL - 3306
 
+## Hardening First
+
+
 ## Networking 
 
 a) tmui OR
